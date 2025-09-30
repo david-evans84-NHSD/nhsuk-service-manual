@@ -1,12 +1,6 @@
 # NHS digital service manual Changelog
 
-## 8.1.0 - 24 September 2025
-
-:new: **New features**
-
-- Add new pattern to help users find BSL content
-- Add new guidance about risks of using textarea
-- Update guidance on using textarea on page about character count component
+## TBC October 2025
 
 :new: **New features**
 
@@ -18,6 +12,17 @@
 - Change dummy NHS number to 999 123 4567
 - Add span class to NHS number examples
 - Replace NHS number 3-option radio examples with alternative examples
+
+## 8.1.0 - 24 September 2025
+
+:new: **New features**
+
+- Add new pattern to help users find BSL content
+- Add new guidance about risks of using textarea
+- Update guidance on using textarea on page about character count component
+
+:wrench: **Maintenance**
+
 - Update javascript path examples in version 10 upgrade guide
 
 ## 8.0.2 - 12 September 2025
