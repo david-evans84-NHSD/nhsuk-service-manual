@@ -134,7 +134,7 @@ app.get('/design-example/:group/:item/:type', (req, res, next) => {
 })
 
 app.get('/search', (req, res) => {
-  const query = req.query['search-field'] || ''
+  const query = req.query['searchField'] || ''
   const resultsPerPage = 10
   let currentPage = parseInt(req.query.page, 10)
   const results = pageIndex.search(query)
