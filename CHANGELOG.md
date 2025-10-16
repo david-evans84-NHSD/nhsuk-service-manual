@@ -6,6 +6,7 @@
 
 - Update guidance on asking users for their NHS number
 - Update guidance on avoiding binary choices
+- Add guidance for codes and sequences class to text input component
 
 :wrench: **Maintenance**
 
