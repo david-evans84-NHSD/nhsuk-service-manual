@@ -28,19 +28,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|mjs|scss)$/,
-        loader: 'source-map-loader',
-        enforce: 'pre'
-      },
-      {
         test: /\.(js|mjs)$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
+        extractSourceMap: true,
         options: { rootMode: 'upward' }
       },
       {
         test: /\.scss$/,
         type: 'asset/resource',
+        extractSourceMap: true,
         generator: {
           binary: false,
           publicPath: '/stylesheets',
@@ -98,10 +95,6 @@ module.exports = {
         {
           from: 'assets',
           to: 'assets'
-        },
-        {
-          from: join(dirname(require.resolve('iframe-resizer')), 'js'),
-          to: 'javascripts/vendor'
         },
         {
           from: 'javascripts/vendor',

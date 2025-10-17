@@ -20,9 +20,9 @@ initAll({
 
 // Initialise NHS digital service manual components
 initAccessibleAutocomplete({
-  containerId: 'autocomplete-container',
-  formId: 'search',
-  inputId: 'search-field',
+  form: document.querySelector('.nhsuk-header__search-form'),
+  input: document.querySelector('.nhsuk-header__search-input'),
+  button: document.querySelector('.nhsuk-header__search-submit'),
   onConfirm,
   source,
   templates: {
