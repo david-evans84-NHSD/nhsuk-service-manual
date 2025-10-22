@@ -5,6 +5,7 @@
 :wrench: **Maintenance**
 
 - Bring service standard 13 into closer alignment with GOV's
+- Update service standard 16
 - Review and update service standard 17 with Interoperability Standards Team
 - Update ourdated references to NHS Digital, and fix broken links
 
