@@ -4,8 +4,11 @@
 
 :new: **New features**
 
-- Added new guidance on the interruption page pattern
 - Added guidance on new interruption panel variant
+
+:wrench: **Maintenance**
+
+- Update CSS path examples in version 10 upgrade guide
 
 ## 8.2.0 - 16 October 2025
 
