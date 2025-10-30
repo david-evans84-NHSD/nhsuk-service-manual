@@ -4,8 +4,8 @@ previewLayout: design-example-wrapper-full
 
 {% extends "layouts/design-example-wrapper-full-layout.njk" %}
 
-{% from 'input/macro.njk' import input %}
-{% from 'button/macro.njk' import button %}
+{% from "input/macro.njk" import input %}
+{% from "button/macro.njk" import button %}
 
 {% set dummyNhsNumber = "999 123 4567" %}
 
@@ -23,7 +23,7 @@ previewLayout: design-example-wrapper-full
           html: 'This is a 10 digit number (like <span class="nhsuk-u-nowrap">' + dummyNhsNumber + '</span>) that you can find on an NHS letter, prescription or in the NHS App'
         },
         id: "nhs-number",
-        name: "nhs-number",
+        name: "nhsNumber",
         classes: "nhsuk-input--width-10",
         inputmode: "numeric"
       }) }}
