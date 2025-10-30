@@ -9,6 +9,7 @@ updates:
     groups:
       application:
         patterns:
+          - '@open-iframe-resizer/*'
           - 'accessible-autocomplete'
           - 'axios'
           - 'basic-auth'
@@ -19,7 +20,6 @@ updates:
           - 'gray-matter'
           - 'helmet'
           - 'highlight.js'
-          - 'iframe-resizer'
           - 'js-beautify'
           - 'lunr'
           - 'marked'
@@ -74,3 +74,11 @@ updates:
       # Include indirect browser data updates
       # https://caniuse.com
       - dependency-name: caniuse-lite
+
+  # Update GitHub Actions
+  - package-ecosystem: github-actions
+    directories:
+      - .github/workflows/
+
+    schedule:
+      interval: 'monthly'

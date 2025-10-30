@@ -12,6 +12,23 @@
 - Change dummy NHS number to 999 123 4567
 - Update NHS number examples, including adding span class
 - Replace NHS number 3-option radio examples with alternative examples
+- Update CSS path examples in version 10 upgrade guide
+
+## 8.2.0 - 16 October 2025
+
+:new: **New features**
+
+- Add smaller checkboxes and radios and align guidance better with GOV.UK
+- Add new numbered variant for pagination component
+- Allow design examples to be manually resized
+
+:wrench: **Maintenance**
+
+- Tweak page title example to improve readability
+- Update page titles to use en-dash rather than hyphen
+- Replace BSL icons download file
+- Fix broken cookies URL
+- Bring content on contents list component and mini-hub pattern into line with updates to pagination component
 
 ## 8.1.0 - 24 September 2025
 
